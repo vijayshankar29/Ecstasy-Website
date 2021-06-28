@@ -162,7 +162,7 @@ p {
 /* Header Showcase */
 
 #showcase {
-	background: #333 url("/Images/showcase5.jpg") no-repeat center center/cover;
+	background: #333 url("../Images/showcase5.jpg") no-repeat center center/cover;
 	color: #fff;
 	height: 100vh;
 }
@@ -215,7 +215,7 @@ p {
 }
 
 #who .who-img {
-	background: url("/Images/showcase1.jpg") no-repeat center center/cover;
+	background: url("../Images/showcase1.jpg") no-repeat center center/cover;
 }
 
 /* Our Works */
