@@ -1,0 +1,93 @@
+#what .items {
+	display: block;
+	padding: 1rem;
+}
+
+/* Align icon to left */
+#what .items .item {
+	display: flex;
+	text-align: left;
+}
+
+/* Position icon */
+#what .items .item i {
+	margin-right: 1.3rem;
+	align-self: center;
+	margin-bottom: 0;
+}
+
+/* Smartphones */
+@media (max-width: 500px) {
+	#navbar {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	#navbar .logo {
+		margin-bottom: 0.5rem;
+		text-align: center;
+	}
+
+	#navbar ul {
+		flex-wrap: wrap;
+		justify-content: center;
+		/* padding: 1rem; */
+	}
+	#navbar ul li {
+		margin: 0.2rem;
+	}
+
+	#showcase .showcase-content {
+		top: 150px;
+	}
+
+	#who {
+		display: block;
+	}
+
+	#who .who-img {
+		display: none;
+	}
+
+	#ourworks {
+		display: block;
+		width: 100%;
+	}
+
+	#ourworks .items {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+    #contact{
+        display: block;
+    }
+    #contact .map {
+		height: 200px;
+		border-top: 4px solid #333;
+	}
+
+	#social-media .accounts-block {
+		flex-direction: column;
+		margin-bottom: 0;
+	}
+	#social-media .accounts-block div {
+		padding-bottom: 2rem;
+	}
+}
+
+@media (max-height: 568px) {
+	#showcase .showcase-content {
+		margin-top: -2rem;
+		top: 140px;
+	}
+
+	.l-heading {
+		font-size: 3rem;
+	}
+
+	.lead {
+		font-size: 1rem;
+	}
+}

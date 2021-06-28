@@ -1,0 +1,315 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Roboto", sans-serif;
+	line-height: 1.4;
+}
+
+a {
+	text-decoration: none;
+}
+
+p {
+	margin: 0.75rem 0;
+}
+
+/* Utility Classes */
+
+.container {
+	max-width: 1100px;
+	margin: auto;
+	padding: 0 2rem;
+	overflow: hidden;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.text-primary {
+	color: #40E0D0;
+}
+
+.l-leading {
+	font-size: 4rem;
+	margin-bottom: 0.75rem;
+	line-height: 1.1;
+}
+
+.m-heading {
+	font-size: 2rem;
+	margin-bottom: 0.75rem;
+	line-height: 1.1;
+}
+
+.bg-primary {
+	background: #40E0D0;
+	color: #fff;
+}
+
+.lead {
+	font-size: 1.3rem;
+	margin-bottom: 2rem;
+}
+
+#navbar .logo  {
+   display: flex;
+   align-items: center;
+   color: #40E0D0;
+}
+
+
+
+
+.py-1 {
+	padding: 1.5rem 0;
+}
+.py-2 {
+	padding: 2rem 0;
+}
+.py-3 {
+	padding: 3rem 0;
+}
+
+.p-1 {
+	padding: 1.5rem;
+}
+.p-2 {
+	padding: 2rem;
+}
+.p-3 {
+	padding: 3rem;
+}
+
+.btn {
+	display: inline-block;
+	color: #fff;
+	background-color: #40E0D0;
+	padding: 0.5rem 2rem;
+	border: none;
+	border-radius: 5px;
+}
+
+.btn:hover {
+	background-color: #40E0D0;
+    color: #333;
+}
+
+.btn-dark {
+	background-color: #333;
+	color: #fff;
+}
+
+.bg-dark {
+	background: rgb(22, 19, 19);
+	color: #fff;
+}
+
+.bg-light {
+	background: #f4f4f4;
+	color: #333;
+}
+
+.list {
+	margin: 0.5rem 0;
+	list-style: none;
+}
+
+.list li {
+	padding: 0.5rem 0;
+	border-bottom: #444 dotted 1px;
+}
+
+/* navbar */
+
+#navbar {
+	display: flex;
+	position: sticky;
+	top: 0;
+	background-color: rgb(14, 13, 13);
+	color: #fff;
+	justify-content: space-around;
+	z-index: 1;
+	padding: 1rem;
+}
+
+#navbar ul {
+	display: flex;
+	align-items: center;
+	list-style: none;
+}
+
+#navbar ul li a {
+	color: #fff;
+	text-decoration: none;
+	padding: 0.75rem;
+	margin: 0 0.25rem;
+}
+
+#navbar ul li a:hover {
+	background-color: #40E0D0;
+	border-radius: 5px;
+    color: #333;
+    font-style: oblique;
+}
+
+/* Header Showcase */
+
+#showcase {
+	background: #333 url("/Images/showcase5.jpg") no-repeat center center/cover;
+	color: #fff;
+	height: 100vh;
+}
+
+#showcase .showcase-content {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	padding: 0 2rem;
+	/* Overlay */
+	position: absolute;
+	top: 65px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Section: What */
+
+#what .items {
+	display: flex;
+	padding: 1rem;
+}
+
+#what .items .item {
+	flex: 1;
+	text-align: center;
+	padding: 1rem;
+}
+
+#what .items .item i {
+	background-color: #40E0D0;
+	border-radius: 50%;
+	padding: 1rem;
+	margin-bottom: 1rem;
+}
+
+/* Section: Who */
+
+#who {
+	display: flex;
+}
+
+#who div {
+	flex: 1;
+}
+
+#who .who-img {
+	background: url("/Images/showcase1.jpg") no-repeat center center/cover;
+}
+
+/* Our Works */
+
+/* #ourworks{
+    display: flex;
+    flex-direction: column;
+}
+
+#ourworks .container{
+    padding: 0;
+}
+
+#ourworks .videos-container{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    
+} */
+
+/* #ourworks .container1{
+    display: flex;
+    flex-direction: column;
+}
+
+#ourworks .container1 .videos-container{
+    display: flex;
+    justify-content: space-evenly;
+} */
+
+#ourworks .items {
+	display: flex;
+	padding: 1rem;
+}
+
+#ourworks .items .item iframe {
+	width: 100%;
+	text-align: center;
+	padding: 1rem;
+}
+
+/* Social Media */
+
+#social-media .container {
+	text-align: center;
+}
+
+#social-media .container h1 {
+	margin-bottom: 1.5rem;
+}
+
+#social-media .accounts-block {
+	display: flex;
+	text-align: center;
+	justify-content: space-evenly;
+	margin-right: 1.2rem;
+	margin-bottom: 2rem;
+}
+
+#social-media .accounts-block a {
+	color: #fff;
+}
+
+#social-media .youtube i {
+	color: #40E0D0;
+}
+#social-media .facebook i {
+	color: #40E0D0;
+}
+#social-media .instagram i {
+	color: #40E0D0;
+}
+
+/* Contact */
+
+#contact {
+	display: flex;
+}
+
+#contact .map,
+#contact .contact-form {
+	flex: 1;
+}
+
+#contact .contact-form .form-group {
+	margin: 0.75rem;
+}
+
+#contact .contact-form label {
+	display: block;
+}
+
+#contact .contact-form input,
+#contact .contact-form textarea {
+	width: 100%;
+	padding: 0.5rem;
+}
